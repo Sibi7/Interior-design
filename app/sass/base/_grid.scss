@@ -10,19 +10,10 @@
 .container {
     @extend %clearfix;
 }
-@media (min-width: 768px) {
-    .container {
-        width: 766px;
-    }
-}
-@media (min-width: 992px) {
-    .container {
-        width: 990px;
-    }
-}
+
 
 @media (min-width: 1200px) {
     .container {
-        width: 1140px;
+        width: 1160px;
     }
 }
