@@ -1,0 +1,57 @@
+.mid-form {
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  background: url("../img/mid-form.png") no-repeat center center;
+  background-size: cover;
+  h1 {
+    color: #f4c899;
+    font-family: $proximaExtraB;
+    font-size: 45px;
+    line-height: 56px;
+    text-transform: uppercase;
+    margin-top: 74px;
+    margin-bottom: 26px;
+  }
+  p {
+    width: 481px;
+    color: #ffffff;
+    font-size: 25px;
+    margin: 0;
+  }
+  form{
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 46px;
+    margin-bottom: 77px;
+    input{
+      width: 294px;
+      height: 43px;
+      border: 1px solid #b7b7b7;
+      background-color: #ffffff;
+      box-sizing: border-box;
+      padding-left: 22px;
+      margin-right: 21px;
+      color: #001a33;
+      font-family: $proximaSemiB;
+      font-size: 15px;
+      font-weight: 600;
+      &::placeholder{
+        opacity: 1;
+      }
+    }
+    button{
+      width: 294px;
+      height: 43px;
+      background-color: #c1282d;
+      border: none;
+      color: #ffffff;
+      font-family: $proximaSemiB;
+      font-size: 15px;
+      font-weight: 600;
+    }
+  }
+}
