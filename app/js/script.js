@@ -24,6 +24,10 @@ $(document).ready(function () {
             ]
         });
     });
+    // var api = $('#my-menu').data('mmenu');
+    // api.bind('opened', function () {
+    //     $('.menu-link').addClass('active');
+    // })
 });
 
 

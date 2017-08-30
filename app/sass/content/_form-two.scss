@@ -1,9 +1,9 @@
-.mid-form {
+.form-two {
   display: block;
   position: relative;
   float: left;
   width: 100%;
-  background: url("../img/mid-bg.jpg") no-repeat center center;
+  background: url("../img/form-two.jpg") no-repeat center center;
   background-size: cover;
   h1 {
     color: #f4c899;
@@ -12,20 +12,15 @@
     line-height: 56px;
     text-transform: uppercase;
     margin-top: 74px;
-    margin-bottom: 26px;
-  }
-  p {
-    width: 481px;
-    color: #ffffff;
-    font-size: 25px;
-    margin: 0;
+    width: 694px;
+    margin-bottom: 0;
   }
   form{
     display: block;
     position: relative;
     float: left;
     width: 100%;
-    margin-top: 46px;
+    margin-top: 55px;
     margin-bottom: 77px;
     input{
       width: 294px;

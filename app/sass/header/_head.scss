@@ -3,8 +3,13 @@
   position: relative;
   float: left;
   width: 100%;
-  background: url("../img/head-bg.png") no-repeat center center;
+  background: url("../img/head-bg.jpg")no-repeat center center ;
   background-size: cover;
+  -webkit-animation: scale 20s ease-in-out infinite alternate;
+  animation: scale 20s ease-in-out infinite alternate;
+
+
+
   &__menu {
     display: block;
     position: relative;
