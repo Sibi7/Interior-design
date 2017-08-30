@@ -28,6 +28,7 @@
         display: block;
         top: 98px;
         left: 50%;
+        height: 100%;
         transform: translate(-50%, -0%);
         width: 450px;
         button{
@@ -37,10 +38,14 @@
           border: none;
           color: #1b1b1b;
           font-family: $proximaSemiB;
+          position: absolute;
+          bottom: 125px;
+          display: block;
           font-size: 20px;
           font-weight: 600;
           line-height: 50px;
           text-transform: uppercase;
+          transition: 500ms ease;
         }
         p{
          opacity: 0;
@@ -49,28 +54,33 @@
           font-size: 15px;
           margin: 0;
           line-height: 26px;
+          transition: 500ms ease;
         }
     h1{
-      color: #f4c899;
+      color: #000;
       font-family: $proximaExtraB;
       font-size: 40px;
       line-height: 50px;
       text-transform: uppercase;
       opacity: 0;
+      transition: 500ms ease;
     }
       }
 
       &:hover button{
         opacity: 0;
         cursor: inherit;
+        transition: 500ms ease;
       }
       &:hover h1{
         opacity: 1;
-        color: #f4c899;
-        filter: grayscale(1%);
+        color: #000;
+        filter: grayscale(0%);
+        transition: 500ms ease;
       }
       &:hover p{
       opacity: 1;
+        transition: 500ms ease;
       }
     }
     &:hover{
