@@ -1,0 +1,26 @@
+.rewards{
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  h1{
+    color: #262221;
+    font-family: $proximaExtraB;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 72px;
+    margin-bottom: 68px;
+  }
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 129px;
+    &__item{
+      width: 154px;
+      img{
+        object-fit: cover;
+        width: 100%;
+      }
+    }
+  }
+}
