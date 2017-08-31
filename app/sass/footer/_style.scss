@@ -1,0 +1,61 @@
+.footer{
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  background-color: #151313;
+  &__nav{
+    display: block;
+    position: relative;
+    float: left;
+    ul{
+      list-style: none;
+      padding: 0;
+      margin: 34px 0 45px 0;
+      li{
+        display: inline-block;
+        margin-right: 25px;
+        &:last-child{
+          margin-right: 0;
+        }
+        a{
+          color: #ffffff;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  &__contacts{
+    display: block;
+    position: relative;
+    float: right;
+    &__address{
+      display: block;
+      position: relative;
+      float: right;
+      margin-top: 25px;
+      margin-right: 40px;
+      span{
+        color: #ffffff;
+        font-size: 16px;
+        width: 200px;
+        height: 40px;
+        display: inline-block;
+      }
+      .fa-map-marker{
+        color: #f5c99a;
+        font-size: 20px;
+        display: inline-block;
+        width: 30px;
+        position: absolute;
+        left: -25px;
+      }
+    }
+    .header__phone{
+      width: auto;
+      float: right;
+    }
+  }
+
+
+}

@@ -1,20 +1,21 @@
-.why-we{
+.why-we {
   display: block;
   position: relative;
   float: left;
   width: 100%;
-  &__wrapper{
+  &__wrapper {
     display: block;
     position: relative;
     float: left;
+    margin-bottom: 137px;
     width: 100%;
     margin-top: 99px;
-    &__text{
+    &__text {
       display: block;
       position: relative;
       float: left;
       width: 613px;
-      h1{
+      h1 {
         color: #262221;
         font-family: $proximaExtraB;
         font-size: 40px;
@@ -23,14 +24,14 @@
         margin-top: 0;
         margin-bottom: 38px;
       }
-      p{
+      p {
         color: #151515;
         font-size: 17px;
         line-height: 26px;
         margin: 0;
       }
     }
-    &__img{
+    &__img {
       display: block;
       position: relative;
       float: left;
@@ -38,6 +39,58 @@
       padding-left: 77px;
       box-sizing: border-box;
     }
-
+    &__item {
+      width: 278px;
+      display: block;
+      position: relative;
+      float: left;
+      margin-right: 100px;
+      margin-top: 56px;
+      &:nth-last-of-type(2){
+        margin-top: 120px;
+      }
+      &:nth-last-of-type(1){
+        margin-top: 190px;
+      }
+      img{
+        width: 65px;
+        height: 65px;
+        object-fit: contain;
+        display: block;
+        position: relative;
+        float: left;
+        margin-right: 13px;
+      }
+      &__text{
+        display: block;
+        position: relative;
+        width: calc(100% - 78px);
+        float: left;
+        h3{
+          color: #262221;
+          font-family: $proximaSemiB;
+          font-size: 20px;
+          margin-top: 0;
+          position: relative;
+          &:after{
+            width: 70px;
+            height: 4px;
+            background-color: #f4c899;
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -12px;
+          }
+        }
+        p{
+          margin-top: 39px;
+          color: #151515;
+          font-family: $proximaLight;
+          font-style: italic;
+          font-size: 15px;
+          line-height: 20px;
+        }
+      }
+    }
   }
 }
