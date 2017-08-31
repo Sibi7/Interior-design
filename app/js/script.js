@@ -14,7 +14,7 @@ $(document).ready(function () {
                 content: ['breadcrumbs', 'close']
             },
             offCanvas: {
-                position: 'right'
+                position: 'left'
             },
             navbars: [
                 {
@@ -34,7 +34,8 @@ $(document).ready(function () {
         'positionFromTop': 100,
         'fitImagesInViewport': true,
         'disableScrolling': true
-    })
+    });
+    $('.mid-form').parallax({imageSrc: '../img/form-two.jpg/'});
 });
 
 
