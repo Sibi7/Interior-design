@@ -1,0 +1,79 @@
+.blog {
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  h1 {
+    color: #262221;
+    font-family: $proximaExtraB;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    &__item {
+      width: 33.333%;
+      position: relative;
+      display: block;
+      margin-right: 15px;
+      &:last-child{
+        margin-right: 0;
+      }
+      &__content {
+        position: relative;
+        width: 322px;
+        height: 181px;
+        z-index: 1;
+        img {
+          object-fit: cover;
+          width: 100%;
+        }
+      }
+      &__substrate {
+        height: 181px;
+        position: absolute;
+        float: right;
+        width: 100%;
+        top: 8px;
+        right: 0;
+        background-color: #a4927e;
+        padding-top: 31px;
+        box-sizing: border-box;
+        span {
+          display: block;
+          position: relative;
+          text-align: right;
+          margin-right: 10px;
+          color: #ffffff;
+          font-size: 27px;
+          line-height: 30px;
+          &:last-child {
+            font-family: $proximaBold;
+          }
+        }
+      }
+      &__text {
+        position: relative;
+        width: 100%;
+        margin-bottom: 82px;
+        h2 {
+          color: #000000;
+          font-family: $proximaBold;
+          font-size: 19px;
+          font-weight: 700;
+          margin: 24px 0 16px 0;
+        }
+        p {
+          margin: 0;
+          color: #000000;
+          font-size: 15px;
+          line-height: 21px;
+        }
+      }
+    }
+  }
+}
