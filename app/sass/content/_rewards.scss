@@ -17,6 +17,11 @@
     margin-bottom: 129px;
     &__item{
       width: 154px;
+      transition: 200ms ease;
+      &:hover{
+        transform: scale(1.05);
+        transition: 200ms ease;
+      }
       img{
         object-fit: cover;
         width: 100%;
