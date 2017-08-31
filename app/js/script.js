@@ -28,6 +28,13 @@ $(document).ready(function () {
     // api.bind('opened', function () {
     //     $('.menu-link').addClass('active');
     // })
+    lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true,
+        'positionFromTop': 100,
+        'fitImagesInViewport': true,
+        'disableScrolling': true
+    })
 });
 
 
