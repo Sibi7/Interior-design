@@ -36,6 +36,18 @@ $(document).ready(function () {
         'disableScrolling': true
     });
     $('.mid-form').parallax({imageSrc: '../img/form-two.jpg/'});
+    $(window).scroll(function () {
+
+
+        $('.header-line').each(function () {
+            var imagePos = $(this).offset().top;
+            var topOfWindow = $(window).scrollTop();
+            if (imagePos < topOfWindow + 400) {
+                $(this).height('99px')
+            }
+        });
+
+    });
 });
 
 
