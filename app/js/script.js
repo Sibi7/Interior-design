@@ -31,14 +31,13 @@ $(document).ready(function () {
     lightbox.option({
         'resizeDuration': 200,
         'wrapAround': true,
-        'positionFromTop': 100,
         'fitImagesInViewport': true,
         'disableScrolling': true
     });
-    $('.mid-form').parallax({imageSrc: '../img/form-two.jpg/'});
+
     $(window).scroll(function () {
 
-
+        //Анимация линий второй секции
         $('.header-line').each(function () {
             var imagePos = $(this).offset().top;
             var topOfWindow = $(window).scrollTop();
@@ -46,6 +45,35 @@ $(document).ready(function () {
                 $(this).height('99px')
             }
         });
+        $('.mid-line').each(function () {
+            var imagePos = $(this).offset().top;
+            var topOfWindow = $(window).scrollTop();
+            if (imagePos < topOfWindow + 400) {
+                $(this).width('111%')
+            }
+        });
+        $('.left-line').each(function () {
+            var imagePos = $(this).offset().top;
+            var topOfWindow = $(window).scrollTop();
+            if (imagePos < topOfWindow + 400) {
+                $(this).height('200px')
+            }
+        });
+        $('.bottom-mid-line').each(function () {
+            var imagePos = $(this).offset().top;
+            var topOfWindow = $(window).scrollTop();
+            if (imagePos < topOfWindow + 400) {
+                $(this).width('36%')
+            }
+        });
+        $('.bottom-mid-line-right').each(function () {
+            var imagePos = $(this).offset().top;
+            var topOfWindow = $(window).scrollTop();
+            if (imagePos < topOfWindow + 400) {
+                $(this).width('7%')
+            }
+        });
+        //    end
 
     });
 });
