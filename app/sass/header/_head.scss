@@ -3,16 +3,16 @@
   position: relative;
   float: left;
   width: 100%;
-  background: url("../img/head-bg.jpg")no-repeat center center ;
+  background: url("../img/head-bg.jpg") no-repeat center center;
   background-size: cover;
   -webkit-animation: scale 20s ease-in-out infinite alternate;
   animation: scale 20s ease-in-out infinite alternate;
 
-
-
   &__menu {
     display: block;
-    position: relative;
+    position: absolute;
+
+    height: 100vh;
     float: left;
     width: 50%;
     &__wrap {
@@ -74,7 +74,34 @@
         }
       }
     }
-
+  }
+  #my-menu {
+    position: absolute;
+    background: #f4c899;
+    display: none;
+    z-index: 1;
+    ul {
+      list-style: none;
+      width: 300px;
+      padding: 0;
+      margin: 0;
+      li {
+        display: block;
+        width: 100%;
+        line-height: 30px;
+        a {
+          box-sizing: border-box;
+          padding: 20px 30px;
+          font-size: 16px;
+          display: block;
+          width: 100%;
+          color: #262221;
+          &:hover {
+            background: #fff;
+          }
+        }
+      }
+    }
   }
   &__phone {
     display: block;
@@ -132,12 +159,12 @@
       border: 1px solid #c1282d;
       box-sizing: border-box;
       margin-right: 125px;
-      &:last-child{
+      &:last-child {
         width: 245px;
         height: 43px;
         border: 1px solid #ffffff;
         box-sizing: border-box;
-        margin-right:0;
+        margin-right: 0;
         background-color: transparent;
       }
     }
