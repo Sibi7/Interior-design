@@ -7,11 +7,9 @@
   background-size: cover;
   -webkit-animation: scale 20s ease-in-out infinite alternate;
   animation: scale 20s ease-in-out infinite alternate;
-
   &__menu {
     display: block;
     position: absolute;
-
     height: 100vh;
     float: left;
     width: 50%;
@@ -108,7 +106,7 @@
     position: relative;
     float: left;
     text-align: right;
-    width: 50%;
+    width: 100%;
     margin-top: 36px;
     a {
       color: #ffffff;
@@ -118,6 +116,18 @@
         font-size: 19px;
       }
 
+    }
+    &__social{
+      display: block;
+      position: relative;
+      float: right;
+      margin-left: 20px;
+      a{
+        color: #f5c99a;
+        font-size: 20px;
+        display: inline-block;
+        margin-left: 20px;
+      }
     }
     .fa-phone {
       color: #f5c99a;

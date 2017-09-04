@@ -57,7 +57,7 @@
           transition: 500ms ease;
         }
     h1{
-      color: #000;
+      color: #ffffff;
       font-family: $proximaExtraB;
       font-size: 40px;
       line-height: 50px;
@@ -74,7 +74,6 @@
       }
       &:hover h1{
         opacity: 1;
-        color: #000;
         filter: grayscale(0%);
         transition: 500ms ease;
       }
