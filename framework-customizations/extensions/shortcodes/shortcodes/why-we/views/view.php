@@ -5,7 +5,7 @@
   * Верстка шорткода
   * весь контент лежит в переменной $atts
   */
-fw_print($atts);
+/*fw_print($atts);*/
 ?>
 <div class="why-we">
     <div class="container">
