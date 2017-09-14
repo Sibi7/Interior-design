@@ -1,0 +1,110 @@
+.economy{
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  background-color: #f8f8f8;
+  h1{
+    color: #262221;
+    font-family: $proximaExtraB;
+    font-size: 40px;
+    width: 710px;
+    line-height: 47px;
+    margin-top: 72px;
+    margin-bottom: 36px;
+    text-transform: uppercase;
+  }
+  h2{
+    display: block;
+    position: relative;
+    float: left;
+    text-align: center;
+    width: 100%;
+    color: #000000;
+    font-size: 48px;
+    font-family: $proximaReg;
+    font-weight: 400;
+    line-height: 31px;
+    margin-top: 38px;
+    margin-bottom: 25px;
+    span{
+      font-family: $proximaBold;
+      font-weight: 700;
+    }
+
+  }
+  &__button{
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: center;
+    button{
+      width: 294px;
+      height: 43px;
+      background-color: #9f2024;
+      color: #ffffff;
+      font-family: $proximaSemiB;
+      font-size: 15px;
+      border: 0;
+      margin-bottom: 60px;
+      font-weight: 600;
+    }
+  }
+  &__text{
+    display: block;
+    position: relative;
+    margin-bottom: 66px;
+    float: left;
+    width: 865px;
+   p{
+     color: #151515;
+     width: 100%;
+     margin: 0;
+     font-size: 18px;
+     line-height: 26px;
+   }
+  }
+  &__slide{
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+    &__absolute{
+      display: block;
+      width: 281px;
+      height: 90px;
+      background-color: #f4c899;
+      top: 120px;
+      left: 226px;
+      position: absolute;
+      padding: 12px;
+      box-sizing: border-box;
+      &:nth-of-type(2){
+        left: 449px;
+        top: 298px;
+      }
+      &:nth-of-type(3){
+        left: 290px;
+        top: 427px;
+      }
+      h3{
+        margin: 0;
+        color: #131313;
+        font-family: $proximaBold;
+        font-size: 20px;
+        font-weight: 700;
+      }
+      p{
+        margin: 0;
+        color: #131313;
+        font-family: $proximaSemiB;
+        font-size: 16px;
+      }
+    }
+    img{
+      width: 100%;
+      height: 537px;
+      object-fit: cover;
+    }
+  }
+}

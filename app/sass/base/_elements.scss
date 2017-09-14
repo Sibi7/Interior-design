@@ -11,3 +11,79 @@ button{
   overflow: hidden;
   clear: both;
 }
+/* Style the tab */
+div.tab {
+  overflow: hidden;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 0;
+  margin-right: 40px;
+  transition: 0.3s;
+  font-family: $proximaBold;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  border-bottom: transparent 1px solid;
+  box-sizing: border-box;
+  transform: none;
+
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+  color: #f4c899;
+  border-bottom: #f4c899 1px solid;
+}
+
+div.tab button.active {
+  color: #f4c899;
+  box-sizing: border-box;
+  border-bottom: #f4c899 1px solid;
+  display: block;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 0;
+  position: relative;
+  float: left;
+  width: 100%;
+  border-top: none;
+}
+#my-menu {
+  position: absolute;
+  background: #f4c899;
+  display: none;
+  z-index: 1;
+  ul {
+    list-style: none;
+    width: 300px;
+    padding: 0;
+    margin: 0;
+    li {
+      display: block;
+      width: 100%;
+      line-height: 30px;
+      a {
+        box-sizing: border-box;
+        padding: 20px 30px;
+        font-size: 16px;
+        display: block;
+        width: 100%;
+        color: #262221;
+        &:hover {
+          background: #fff;
+        }
+      }
+    }
+  }
+}

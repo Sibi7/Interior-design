@@ -74,33 +74,33 @@
     }
   }
   #my-menu {
-    position: absolute;
-    background: #f4c899;
-    display: none;
-    z-index: 1;
-    ul {
-      list-style: none;
-      width: 300px;
-      padding: 0;
-      margin: 0;
-      li {
-        display: block;
-        width: 100%;
-        line-height: 30px;
-        a {
-          box-sizing: border-box;
-          padding: 20px 30px;
-          font-size: 16px;
-          display: block;
-          width: 100%;
-          color: #262221;
-          &:hover {
-            background: #fff;
-          }
-        }
-      }
-    }
-  }
+       position: absolute;
+       background: #f4c899;
+       display: none;
+       z-index: 1;
+       ul {
+         list-style: none;
+         width: 300px;
+         padding: 0;
+         margin: 0;
+         li {
+           display: block;
+           width: 100%;
+           line-height: 30px;
+           a {
+             box-sizing: border-box;
+             padding: 20px 30px;
+             font-size: 16px;
+             display: block;
+             width: 100%;
+             color: #262221;
+             &:hover {
+               background: #fff;
+             }
+           }
+         }
+       }
+     }
   &__phone {
     display: block;
     position: relative;

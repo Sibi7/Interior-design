@@ -1,0 +1,39 @@
+.builders{
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  background: url("../img/builders-bg.jpg") no-repeat center center;
+  background-size: cover;
+  &__head{
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+  }
+  &__content{
+    display: block;
+    position: relative;
+    float: left;
+    margin-bottom: 66px;
+    h1{
+      margin-top: 150px;
+      color: #f4c899;
+      font-family: $proximaExtraB;
+      font-size: 60px;
+      line-height: 70px;
+      text-transform: uppercase;
+      margin-bottom: 42px;
+    }
+    p{
+      width: 378px;
+      color: #ffffff;
+      font-size: 16px;
+      line-height: 25px;
+      margin-bottom: 26px;;
+      font-weight: 400;
+      padding-right: 15px;
+      box-sizing: border-box;
+    }
+  }
+}

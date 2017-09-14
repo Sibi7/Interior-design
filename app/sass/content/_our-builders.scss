@@ -1,0 +1,42 @@
+.our-builders{
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  h1{
+    color: #262221;
+    font-family: $proximaExtraB;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    &__item{
+      width: 268px;
+      img{
+        width: 100%;
+        height: 249px;
+        object-fit: cover;
+      }
+      h4{
+        color: #000000;
+        font-family: $proximaBold;
+        font-size: 19px;
+        font-weight: 700;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        line-height: 21px;
+      }
+      p{
+        color: #000000;
+        font-size: 14px;
+        line-height: 21px;
+      }
+    }
+  }
+}
