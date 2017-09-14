@@ -3,7 +3,10 @@
   position: relative;
   float: left;
   width: 100%;
-  background: url("../img/mid-bg.jpg") no-repeat center center;
+ /* background: url("../img/mid-bg.jpg") no-repeat center center;
+  background-image: url();*/
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
   background-attachment: fixed;
   h1 {
